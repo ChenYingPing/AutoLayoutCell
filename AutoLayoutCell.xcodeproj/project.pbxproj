@@ -15,6 +15,8 @@
 		748CBC241C9176D400816A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748CBC221C9176D400816A9E /* LaunchScreen.storyboard */; };
 		748CBC2F1C9176D400816A9E /* AutoLayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748CBC2E1C9176D400816A9E /* AutoLayoutCellTests.m */; };
 		748CBC3A1C9176D400816A9E /* AutoLayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748CBC391C9176D400816A9E /* AutoLayoutCellUITests.m */; };
+		748CBC491C917AAD00816A9E /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 748CBC481C917AAD00816A9E /* MyTableViewCell.m */; };
+		748CBC4B1C917CD100816A9E /* Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 748CBC4A1C917CD100816A9E /* Dog.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		748CBC351C9176D400816A9E /* AutoLayoutCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748CBC391C9176D400816A9E /* AutoLayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCellUITests.m; sourceTree = "<group>"; };
 		748CBC3B1C9176D400816A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748CBC471C917AAD00816A9E /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		748CBC481C917AAD00816A9E /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		748CBC4A1C917CD100816A9E /* Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dog.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		748CBC131C9176D300816A9E /* AutoLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
+				748CBC4A1C917CD100816A9E /* Dog.png */,
 				748CBC171C9176D400816A9E /* AppDelegate.h */,
 				748CBC181C9176D400816A9E /* AppDelegate.m */,
 				748CBC1A1C9176D400816A9E /* ViewController.h */,
 				748CBC1B1C9176D400816A9E /* ViewController.m */,
+				748CBC471C917AAD00816A9E /* MyTableViewCell.h */,
+				748CBC481C917AAD00816A9E /* MyTableViewCell.m */,
 				748CBC1D1C9176D400816A9E /* Main.storyboard */,
 				748CBC201C9176D400816A9E /* Assets.xcassets */,
 				748CBC221C9176D400816A9E /* LaunchScreen.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748CBC4B1C917CD100816A9E /* Dog.png in Resources */,
 				748CBC241C9176D400816A9E /* LaunchScreen.storyboard in Resources */,
 				748CBC211C9176D400816A9E /* Assets.xcassets in Resources */,
 				748CBC1F1C9176D400816A9E /* Main.storyboard in Resources */,
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				748CBC1C1C9176D400816A9E /* ViewController.m in Sources */,
+				748CBC491C917AAD00816A9E /* MyTableViewCell.m in Sources */,
 				748CBC191C9176D400816A9E /* AppDelegate.m in Sources */,
 				748CBC161C9176D400816A9E /* main.m in Sources */,
 			);
